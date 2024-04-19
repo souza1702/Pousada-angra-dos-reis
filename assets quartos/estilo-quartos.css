@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: #fff;
+}
+.topo{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #d5d5d5;
+    position: fixed;
+    background-color: #FFF;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.topo a{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.topo span{
+    color: #6592c9;
+}
+.topo a:hover{
+    border-bottom: 2px solid #3d3d3d;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    background-color: rgba(2,121,215,255)
+}
+.parallax{
+    background-attachment: fixed;
+    background-image: url(img-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 20px;
+}
+.quartos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    padding: 20px 0;
+}
+.quartos-conteudo{
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    color: #3d3d3d;
+    line-height: 36px;
+}
+.imagens-quartos{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.imagens-quartos img{
+    width: 30%;
+}
+.imagens-quartos img:hover{
+    background-color:gray;
+    border-bottom: 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px gray;
+}
+.informacoes-quarto{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.informacoes-quarto li{
+    width: 30%;
+    text-align: left;
+    margin-top: 10px;
+}
+.lista{
+    width: 90%;
+    margin: 0 5%;
+}
+footer{
+    background-color: #49997d;
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+.rodape{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #3b7863;
+}
+.rodape div:hover{
+    background-color: #00836a;
+    border-bottom: 2px solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 0 20px 5px #00836a;
+}
+.rodape div{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.final-rodape{
+    padding: 10px 0;
+}

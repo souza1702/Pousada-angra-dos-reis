@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    border-bottom: 1px solid #d5d5d5;
+}
+header span{
+    color:#6592c9;
+}
+header a:hover{
+    border-bottom: 2px solid #3d3d3d;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    background-color: rgba(2,121,215,255)
+}
+header, .topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.topo{
+    max-width: 1024px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.topo a{
+    color: #3d3d3d;
+                
+    text-decoration: none;
+
+}
+.topo nav a{
+    color: #3d3d3d;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 5px
+}
+
+.apresentacao-fundo{
+    background-image: url(img-fundo.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apresentacao{
+    background-color: #0a9077b3;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.recepcao-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    line-height: 36px;
+    padding: 40px 0;
+}
+.mine-galeria{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 80%;
+    line-height: 20px;
+}
+.mine-galeria div{
+    width: 30%;
+    height: 100%;
+    border-bottom: 2px #00836a solid;
+    display: flex;
+    flex-direction: column;
+}
+.mine-galeria div:hover{
+    box-shadow: 0 0 50px 5px gray;
+    border: 2px gray solid;
+}
+.mine-galeria img{
+    width: 100%;
+}
+.mine-galeria p{
+    font-size: 12px;
+}
+#rota{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    line-height: 36px;
+    padding: 20px 0;
+    color:#3d3d3d
+}
+.mapa iframe{
+    width: 100%;
+    height: 45vh;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    line-height: 36px;
+    width: 100%;
+    color: #3d3d3d;
+}
+.mine-cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 60vh;
+  margin: 0 10%;
+  font-size: 13px;
+  color: #3d3d3d;
+}
+.mine-cards h5{
+    font-size: 15px;
+}
+.mine-cards img{
+    width: 35%;
+    height: 50%;
+}
+.pousada, .alimentacao, .quartos, .fachada{
+    width: 45%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    background-color: #49997d;
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+.rodape{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #3b7863;
+}
+.rodape div{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.rodape div:hover{
+    background-color: #00836a;
+    border-bottom: 2px solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 0 20px 5px #00836a;
+}
+.final-rodape{
+    padding: 10px 0;
+}
